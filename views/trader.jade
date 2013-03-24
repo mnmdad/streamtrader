@@ -1,0 +1,55 @@
+extends layout
+
+block content
+  script(src='/javascripts/knockout-2.1.0.debug.js', type='text/javascript')
+  script(src='/javascripts/insto.js', type='text/javascript')
+  h1= title
+  p Welcome to #{title}
+
+  table(id='watchlist')
+    thead
+      tr
+        td Symbol (width=10)
+        td Bid
+        td Ask
+        td Latency
+    tbody(data-bind='foreach: items')
+      tr
+        td(data-bind='text: sym') 
+        td 
+          button(data-bind='text: bid, click: sendSellOrder') 
+        td 
+          button(data-bind='text: ask, click: sendBuyOrder') 
+        td 
+          button(data-bind='text: latency') 
+
+  table(id='order-blotter', class='blotter')
+    thead
+      tr
+        td Action
+        td Order Id
+        td Order Time
+        td Symbol
+        td BuySell
+        td Price
+        td Size
+        td Filled Size
+        td Filled Avg Price
+        td Cost
+        td Value
+        td PnL
+     tbody(data-bind='foreach: orders')
+       tr
+         td
+           button(data-bind="click: fillOrder") Fill It!
+         td(data-bind='text: orderId')
+         td(data-bind='text: orderTime')
+         td(data-bind='text: sym')
+         td(data-bind='text: buySell')
+         td(data-bind='text: price')
+         td(data-bind='text: size')
+         td(data-bind='text: filledSize')
+         td(data-bind='text: filledAvgPrice')
+         td(data-bind='text: cost')
+         td(data-bind='text: value')
+         td(data-bind='text: pnl')

@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  script(src='/javascripts/angular.js', type='text/javascript')
+  script(src='/javascripts/angtrader.js', type='text/javascript')
+  h1= title
+  p Welcome to #{title}
+
+  table(id='watchlist')
+    thead
+      tr
+        td Symbol
+        td Bid
+        td Ask
+    tbody()
+      tr(ng-repeat="item in wlist")
+        td({{item.sym}})
+        td 
+          button('{{item.bid}}'  ng-click="item.sendSellOrder()") 
+        td 
+          button('{{item.ask}}'  ng-click="item.sendBuyOrder()") 
+
