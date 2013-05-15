@@ -15,6 +15,10 @@ server.bind('publish', function(clientId, channel) {
 	console.log('Got Publish, ClientId: ' + clientId + ' Channel: ' 
 		+ channel);
 });
+
+
+
+
 server.listen(8000);
 
 

@@ -10,6 +10,7 @@
     "jade": "*",
     "stylus": "*",
     "faye": "*",
-    "knockout-client": "*"
+    "knockout-client": "*",
+    "mongodb": "*"
   }
 }

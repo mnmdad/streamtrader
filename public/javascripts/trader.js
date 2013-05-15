@@ -73,6 +73,8 @@ var LiveOrderModel = function(message) {
 	self.buySell = ko.observable(message.buySell ? message.buySell : 'B');
 	self.price = ko.observable(message.price ? message.price : 151.51);
 	self.size = ko.observable(message.size ? message.size : 1000);
+	
+
 	self.amount = ko.observable(message.amount ? message.amount : 151510);
 	self.filledSize = ko.observable(message.filledSize ? message.filledSize : 0);
 	self.filledAmount = ko.observable(message.filledAmount ? message.filledAmount : 0);
@@ -84,8 +86,8 @@ var LiveOrderModel = function(message) {
 	this.cancelOrder = function() {
 
 	}
-	    this.onMessage = function (message){
-    		self.filledSize(message.filledSize + self.filledSize());
+	this.onMessage = function (message){
+    	self.filledSize(message.filledSize + self.filledSize());
    
     }
 

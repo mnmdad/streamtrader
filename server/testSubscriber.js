@@ -1,9 +1,16 @@
 /*  Simple Test Subscriber
+
+
 */
+console.log("Argv: " + process.argv.length );
+if (process.argv.length < 3) {
+	console.log("Usage: node simpleTestSubscriber.js crcypair");
+	process.exit;
+}
 var Faye   = require('faye') ;
 
 console.log("Started");
-var client = new Faye.Client('http://localhost:8000/faye');
+var client = new Faye.Client('http://localhost:3000/faye');
 
 console.assert(client);
 console.log("Connected!");
@@ -20,6 +27,6 @@ client.bind('transport:down', function() {
 client.bind('transport:up', function() {
 	console.log(Date() + "Transport Up");
 });
-var subscription = client.subscribe ( "/faye/rates/fx/AUDJPY", subfunc );
+var subscription = client.subscribe ( '/faye/fx/quote/' + process.argv[2], subfunc );
 
 

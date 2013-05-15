@@ -47,7 +47,7 @@ var publishFunction = function(c) {
 		message.qid = quoteId++;
 		message.timestamp = new Date().getTime();
 	 
-		console.log(Date() + "Pub: " + message.sym + " : " + message.bid ); 
+		console.log(Date() + "Channel: " + channel + " : " + message ); 
 		client.publish (channel, message ); 
 	};
 };

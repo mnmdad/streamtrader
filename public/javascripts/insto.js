@@ -103,14 +103,14 @@ var LiveOrderModel = function (message) {
     this.subscribe = function (client) {
 		var channel = '/faye/fx/fill/' + self.orderId() ;
 		this.fillSubscription = client.subscribe(channel, this.onFill);
-        this.pxSubscription = client.subscribe('/faye/fx/quote/' + this.sym,
+        this.pxSubscription = client.subscribe('/faye/fx/quote/' + this.sym(),
             this.onPx);
     }
     this.cancelOrder = function ( ) {
     		
     }
     this.onPx = function(px) {
-        this.lastPrice(px.bid);
+        self.lastPrice(px.bid);
 
     }
     this.onFill = function (fill){
@@ -207,7 +207,7 @@ function subscribeAll () {
     
 function unSubscribeAll () {
     for(var i=0;i<theStuff.items().length; i++) {
-	theStuff.items()[i].subscription.unsubscribe();
+	theStuff.items()[i].fillSubscription.unsubscribe();
     }
 }
 
