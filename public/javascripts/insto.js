@@ -18,6 +18,8 @@ client.bind('transport:up', function() {
     });
 //ko.applyBindings(transportState);
 //require('js/liveQuoteModel.js')
+/* Code for the Watchlist
+*/
 var LiveQuoteModel = function ( sym, bid, ask, qid, timestamp ) {
     var self = this;
     this.sym = sym,
@@ -73,8 +75,35 @@ var LiveQuoteModel = function ( sym, bid, ask, qid, timestamp ) {
 	    );
     }
 }
-       
-   
+// TODO: This is bogus data just to get started replace with config or saved user preferences
+var initialData = [
+   new LiveQuoteModel( "AUDJPY" ),
+    new LiveQuoteModel( "AUDUSD", 145.45, 145.47 ),
+    new LiveQuoteModel( "AUDEUR",  45.45,  45.47 )
+];
+
+var WatchListModel = function(things) {
+    var self = this;
+    self.items = ko.observableArray(things);
+};
+
+var theStuff = new WatchListModel(initialData);
+/*
+ jQuery's $(document).ready(doAction) should be used here.
+   replaced the window.addEventListener....
+*/
+
+$(document).ready( function() {
+    ko.applyBindings(theStuff, document.getElementById('watchlist'));
+      for(var i=0;i<theStuff.items().length; i++) {
+    	theStuff.items()[i].subscribe(client);
+        }
+
+});
+
+// END Watchlist Code
+
+// BEGIN Order Blotter Code
 //var LiveOrderModel = function (orderId, status, sym, buySell, price, size) {
 var LiveOrderModel = function (message) {
     var self = this;
@@ -151,38 +180,17 @@ var LiveOrderBlotterModel = function(orders) {
 	}
 }
 
-
-    
-var initialData = [
-   new LiveQuoteModel( "AUDJPY" ),
-    new LiveQuoteModel( "AUDUSD", 145.45, 145.47 ),
-    new LiveQuoteModel( "AUDEUR",  45.45,  45.47 )
-];
-
-var WatchListModel = function(things) {
-    var self = this;
-    self.items = ko.observableArray(things);
-
-};
-var theStuff = new WatchListModel(initialData);
 var theOtherStuff = new LiveOrderBlotterModel([ new LiveOrderModel({}) ]);
 
-// Need to do this onload to be sure document is complete before 
-// attempting to bind model to view.
-
-window.onload=function() {
-
-    ko.applyBindings(theStuff,
-    		document.getElementById('watchlist'));
-
+// deprecated window.addEventListener("load", function() {
+$(document).ready( function() {
     ko.applyBindings(theOtherStuff,
   		document.getElementById('order-blotter'));
+    theOtherStuff.subscribe(client);
+});
+// END Order Blotter Code
 
-    for(var i=0;i<theStuff.items().length; i++) {
-	theStuff.items()[i].subscribe(client);
-    }
-     theOtherStuff.subscribe(client);
-   
+
 // Test Function - for each row, create a dummy message and call onMessage
 // setInterval(function() {
 
@@ -194,9 +202,8 @@ window.onload=function() {
 // 	    theStuff.items()[i].onMessage(message);
 // 	}
 //     }, 2000);
-}
 
-    
+// These functions are available for a start/stop button on View
 function subscribeAll () {
     for(var i=0;i<theStuff.items().length; i++) {
 	theStuff.items()[i].subscribe(client);
@@ -211,6 +218,7 @@ function unSubscribeAll () {
     }
 }
 
+// TODO This is noise
 function displayDate()
 {
 document.getElementById("demo").innerHTML=theStuff.items()[0].bid;

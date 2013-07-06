@@ -4,6 +4,24 @@
 var Faye   = require('faye'),
     server = new Faye.NodeAdapter({mount: '/faye'});
 
+var MessageProvider = require('./messageprovider-mongodb').MessageProvider;
+
+var messageProvider = new MessageProvider('localhost', 27017);
+
+messageProvider.save( [ {   sym: "AUDUSD", bid: 103 } ], 
+    function (error, docs) { 
+      if(error) console.log("Error from Mongo: " + error + " Docs:" + docs);
+      else {
+        console.log("Save to Mongo Worked");
+        console.log("\tSaved: " + docs[0].sym + " saved");
+      }
+
+    }
+  );
+
+
+
+
 server.bind('handshake', function(clientId) {
 	console.log('Got Handshake from ClientId == ' + clientId);
 });
@@ -27,6 +45,7 @@ server.addExtension({
   }
 });
 
+/*
 var client = new Db('test', new Server("127.0.0.1", 27017, {}), {w: 1}),
         test = function (err, collection) {
           collection.insert({a:2}, function(err, docs) {
@@ -50,7 +69,7 @@ var client = new Db('test', new Server("127.0.0.1", 27017, {}), {w: 1}),
       client.collection('test_insert', test);
     });
 
-
+*/
 server.listen(8080);
 
 

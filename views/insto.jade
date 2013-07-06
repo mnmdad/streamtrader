@@ -7,22 +7,7 @@ block content
   h1= title
   p Welcome to #{title}
 
-  table(id='watchlist')
-    thead
-      tr
-        td Symbol (width=10)
-        td Bid
-        td Ask
-        td Latency
-    tbody(data-bind='foreach: items')
-      tr
-        td(data-bind='text: sym') 
-        td 
-          button(data-bind='text: bid, click: sendSellOrder') 
-        td 
-          button(data-bind='text: ask, click: sendBuyOrder') 
-        td 
-          button(data-bind='text: latency') 
+  include watchlist
 
   table(id='order-blotter', class='blotter')
     thead
