@@ -1,0 +1,8 @@
+{
+    "http-listener": {
+        "port":   3000
+    },
+    "faye": {
+        "mount": "/faye"
+    }
+}
