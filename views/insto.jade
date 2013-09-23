@@ -1,27 +1,28 @@
 extends layout
 
-/* this is hopefully a comment  */
+// this is hopefully a comment
 block content
   script(src='/javascripts/knockout-2.1.0.debug.js', type='text/javascript')
   script(src='/javascripts/insto.js', type='text/javascript')
   h1= title
   p Welcome to #{title}
-  div.left
-      table(id='watchlist')
-        thead
-          tr
-            td Symbol
-            td Bid
-            td Ask
-            td Latency
-        tbody(data-bind='foreach: items')
-          tr
-            td(data-bind='text: sym')
-            td
-              button(class='quote-button' data-bind='text: bid, click: sendSellOrder')
-            td
-              button(data-bind='text: ask, click: sendBuyOrder')
-            td(data-bind='text: latency')
+
+  table(id='watchlist')
+    thead
+      tr
+        td Symbol
+        td Bid
+        td Ask
+        td Latency
+    tbody(data-bind='foreach: items')
+      tr
+        td(data-bind='text: sym')
+        td
+          button(class='quote-button' data-bind='text: bid, click: sendSellOrder')
+        td
+          button(data-bind='text: ask, click: sendBuyOrder')
+        td(data-bind='text: latency')
+
 
 
   table(id='order-blotter', class='blotter')

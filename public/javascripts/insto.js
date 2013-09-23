@@ -53,8 +53,10 @@ client.bind('transport:up', function () {
 
 //todo: attempted to split and require js files..
 //require('js/liveQuoteModel.js')
+
 // MVVM Model for the streaming Quotes displayed in Watchlist
 var LiveQuoteModel = function (sym, bid, ask, qid, timestamp) {
+
     var self = this;
     this.sym = sym,
         this.bid = ko.observable(bid ? bid : 0.0).extend({ numeric: 6 }),
@@ -111,6 +113,7 @@ var LiveQuoteModel = function (sym, bid, ask, qid, timestamp) {
 }
 
 
+
 //MVVM list to contain the live quotes
 var WatchListModel = function (quotes) {
     var self = this;
@@ -120,6 +123,7 @@ var WatchListModel = function (quotes) {
 
 // MVVM for Order Instance
 // todo: need to fix how initiliased...
+
 //var LiveOrderModel = function (orderId, status, sym, buySell, price, size) {
 var LiveOrderModel = function (message) {
     var self = this;
@@ -205,6 +209,7 @@ var LiveOrderBlotterModel = function (orders) {
 
 
 
+
 // Initilising instances of Model Objects, then finding with ko bind
 // TODO: see if this is really necessary - it creates noise rows on screen.
 var initialData = [
@@ -232,6 +237,7 @@ window.onload = function () {
         watchList.items()[i].subscribe(client);
     }
     orderList.subscribe(client);
+};
 
 // Test Function - for each row, create a dummy message and call onMessage
 // setInterval(function() {
@@ -244,12 +250,13 @@ window.onload = function () {
 // 	    watchList.items()[i].onMessage(message);
 // 	}
 //     }, 2000);
-}
+
 
 
 function subscribeAll() {
     for (var i = 0; i < watchList.items().length; i++) {
         watchList.items()[i].subscribe(client);
+
     }
     orderList.subscribe(client);
 }
@@ -261,9 +268,12 @@ function unSubscribeAll() {
     }
 }
 
+
 function displayDate() {
     document.getElementById("demo").innerHTML = watchList.items()[0].bid;
+
 }
+
 
 
 
