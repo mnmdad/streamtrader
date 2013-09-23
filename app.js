@@ -15,7 +15,7 @@ var fs    = require('fs'),
 
 nconf.argv()
     .env()
-    .file({ file: 'path/to/config.json' });
+    .file({ file: './config.json' });
 
 
 var express = require('express')
@@ -31,7 +31,7 @@ var Faye   = require('faye'),
 var app = express();
 
 app.configure(function(){
-  app.set('port', process.env.PORT || 3000);
+  app.set('port', nconf.get('http-listener:port'));
   app.set('views', __dirname + '/views');
   app.set('view engine', 'jade');
   app.use(express.favicon());

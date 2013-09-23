@@ -2,195 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a10463f6-f632-448b-9181-af8a12eded54" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/login.jade" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/debug/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/debug/debug.component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/debug/head.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/debug/tail.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/.redcar/lucene/_a.cfs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/.redcar/lucene/segments.gen" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/.redcar/lucene/segments_b" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/.redcar/lucene_last_updated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/.redcar/redcar.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/.redcar/storage/cursor_saver.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/.redcar/storage/project_loader.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/.redcar/tags" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/CHANGELOG.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/README.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/lib/faye/websocket/draft75_parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/lib/faye/websocket/draft76_parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/lib/faye/websocket/hybi_parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/lib/faye/websocket/hybi_parser/handshake.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/lib/faye/websocket/hybi_parser/stream_reader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/spec/faye/websocket/client_spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/spec/faye/websocket/draft75parser_spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/spec/faye/websocket/draft76parser_spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/spec/faye/websocket/hybi_parser_spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/spec/runner.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/spec/server.crt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/spec/server.key" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/jade.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/commander/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/commander/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/commander/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/commander/lib/commander.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/runtime.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/test.jade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/testing/head.jade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/testing/index.jade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/testing/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/testing/layout.jade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/testing/user.jade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/testing/user.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/stylus/node_modules/debug/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/stylus/node_modules/debug/debug.component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/stylus/node_modules/debug/head.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/stylus/node_modules/debug/tail.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/stylus/testing/foo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/stylus/testing/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/stylus/testing/small.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/stylus/testing/test.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/ninjaPricePublisher.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/home.jade" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/README.markdown" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/readme.markdown" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node_modules/stylus/node_modules/mkdirp/README.markdown" afterPath="$PROJECT_DIR$/node_modules/stylus/node_modules/mkdirp/readme.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/.npmignore" afterPath="$PROJECT_DIR$/node_modules/jade/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/stylus/node_modules/mkdirp/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/stylus/node_modules/mkdirp/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/debug/History.md" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/debug/History.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/commander/History.md" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/commander/History.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/stylus/node_modules/debug/History.md" afterPath="$PROJECT_DIR$/node_modules/stylus/node_modules/debug/History.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/faye/History.txt" afterPath="$PROJECT_DIR$/node_modules/faye/History.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/LICENSE" afterPath="$PROJECT_DIR$/node_modules/jade/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/faye/README.txt" afterPath="$PROJECT_DIR$/node_modules/faye/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/debug/Readme.md" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/debug/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/Readme.md" afterPath="$PROJECT_DIR$/node_modules/jade/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/commander/Readme.md" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/commander/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/stylus/Readme.md" afterPath="$PROJECT_DIR$/node_modules/stylus/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/stylus/node_modules/debug/Readme.md" afterPath="$PROJECT_DIR$/node_modules/stylus/node_modules/debug/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/angtrader.js" afterPath="$PROJECT_DIR$/public/javascripts/angtrader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/lib/faye/websocket/api.js" afterPath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/lib/faye/websocket/api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/attrs.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/nodes/attrs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/examples/autobahn_client.js" afterPath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/examples/autobahn_client.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/block-comment.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/nodes/block-comment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/block.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/nodes/block.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/case.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/nodes/case.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/examples/client.js" afterPath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/examples/client.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/lib/faye/websocket/client.js" afterPath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/lib/faye/websocket/client.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/code.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/nodes/code.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/comment.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/nodes/comment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/compiler.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/compiler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/stylus/lib/visitor/compiler.js" afterPath="$PROJECT_DIR$/node_modules/stylus/lib/visitor/compiler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/stylus/lib/convert/css.js" afterPath="$PROJECT_DIR$/node_modules/stylus/lib/convert/css.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/custom.css" afterPath="$PROJECT_DIR$/public/stylesheets/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/debug/debug.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/debug/debug.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/debug/lib/debug.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/debug/lib/debug.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/stylus/node_modules/debug/debug.js" afterPath="$PROJECT_DIR$/node_modules/stylus/node_modules/debug/debug.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/stylus/node_modules/debug/lib/debug.js" afterPath="$PROJECT_DIR$/node_modules/stylus/node_modules/debug/lib/debug.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/doctype.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/nodes/doctype.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/doctypes.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/doctypes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/each.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/nodes/each.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/stylus/lib/visitor/evaluator.js" afterPath="$PROJECT_DIR$/node_modules/stylus/lib/visitor/evaluator.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/lib/faye/websocket/api/event.js" afterPath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/lib/faye/websocket/api/event.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js" afterPath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/lib/faye/eventsource.js" afterPath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/lib/faye/eventsource.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/faye/browser/faye-browser-min.js.map" afterPath="$PROJECT_DIR$/node_modules/faye/browser/faye-browser-min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/faye/browser/faye-browser-min.js" afterPath="$PROJECT_DIR$/node_modules/faye/browser/faye-browser-min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/faye/browser/faye-browser.js" afterPath="$PROJECT_DIR$/node_modules/faye/browser/faye-browser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/faye/node/faye-node.js" afterPath="$PROJECT_DIR$/node_modules/faye/node/faye-node.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/filter.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/nodes/filter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/filters.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/filters.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/function.js" afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/function.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/ident.js" afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/ident.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/stylus/lib/functions/image.js" afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/image.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.jade" afterPath="$PROJECT_DIR$/views/index.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/debug/index.js" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/debug/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/index.js" afterPath="$PROJECT_DIR$/node_modules/jade/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/index.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/nodes/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/commander/index.js" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/commander/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/stylus/lib/functions/index.js" afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/index.js" afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/stylus/node_modules/debug/index.js" afterPath="$PROJECT_DIR$/node_modules/stylus/node_modules/debug/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/stylus/lib/functions/index.styl" afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/index.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/inline-tags.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/inline-tags.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/insto.jade" afterPath="$PROJECT_DIR$/views/insto.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/insto.js" afterPath="$PROJECT_DIR$/public/javascripts/insto.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/jade.js" afterPath="$PROJECT_DIR$/node_modules/jade/jade.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/jade.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/jade.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/jade.md" afterPath="$PROJECT_DIR$/node_modules/jade/jade.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/bin/jade" afterPath="$PROJECT_DIR$/node_modules/jade/bin/jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/knockout-client/knockout.debug.js" afterPath="$PROJECT_DIR$/node_modules/knockout-client/knockout.debug.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/knockout-client/knockout.js" afterPath="$PROJECT_DIR$/node_modules/knockout-client/knockout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.jade" afterPath="$PROJECT_DIR$/views/layout.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/lexer.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/lexer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/stylus/lib/lexer.js" afterPath="$PROJECT_DIR$/node_modules/stylus/lib/lexer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/literal.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/nodes/literal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/stylus/lib/middleware.js" afterPath="$PROJECT_DIR$/node_modules/stylus/lib/middleware.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/mixin.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/nodes/mixin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/node.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/nodes/node.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/stylus/lib/visitor/normalizer.js" afterPath="$PROJECT_DIR$/node_modules/stylus/lib/visitor/normalizer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/package.json" afterPath="$PROJECT_DIR$/node_modules/express/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/commander/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/commander/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/bytes/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/bytes/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/formidable/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/pause/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/pause/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/qs/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/qs/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/cookie/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/cookie/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/crc/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/crc/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/debug/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/debug/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/fresh/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/fresh/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/methods/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/methods/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/mkdirp/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/mkdirp/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/range-parser/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/range-parser/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/send/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/send/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/node_modules/send/node_modules/mime/package.json" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/send/node_modules/mime/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/faye/package.json" afterPath="$PROJECT_DIR$/node_modules/faye/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/faye/node_modules/cookiejar/package.json" afterPath="$PROJECT_DIR$/node_modules/faye/node_modules/cookiejar/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/package.json" afterPath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/package.json" afterPath="$PROJECT_DIR$/node_modules/jade/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/commander/package.json" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/commander/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/package.json" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/knockout-client/package.json" afterPath="$PROJECT_DIR$/node_modules/knockout-client/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/stylus/package.json" afterPath="$PROJECT_DIR$/node_modules/stylus/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/stylus/node_modules/cssom/package.json" afterPath="$PROJECT_DIR$/node_modules/stylus/node_modules/cssom/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/stylus/node_modules/debug/package.json" afterPath="$PROJECT_DIR$/node_modules/stylus/node_modules/debug/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/stylus/node_modules/mkdirp/package.json" afterPath="$PROJECT_DIR$/node_modules/stylus/node_modules/mkdirp/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/parser.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/parser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/stylus/lib/parser.js" afterPath="$PROJECT_DIR$/node_modules/stylus/lib/parser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/stylus/lib/renderer.js" afterPath="$PROJECT_DIR$/node_modules/stylus/lib/renderer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/runtime.js" afterPath="$PROJECT_DIR$/node_modules/jade/runtime.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/runtime.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/runtime.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/self-closing.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/self-closing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/examples/server.js" afterPath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/examples/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/examples/sse.html" afterPath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/examples/sse.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/store.js" afterPath="$PROJECT_DIR$/routes/store.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/string.js" afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/string.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.styl" afterPath="$PROJECT_DIR$/public/stylesheets/style.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/stylus/lib/stylus.js" afterPath="$PROJECT_DIR$/node_modules/stylus/lib/stylus.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/stylus/bin/stylus" afterPath="$PROJECT_DIR$/node_modules/stylus/bin/stylus" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/tag.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/nodes/tag.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/testMongoNode.js" afterPath="$PROJECT_DIR$/server/testMongoNode.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/text.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/nodes/text.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/trader.jade" afterPath="$PROJECT_DIR$/views/trader.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/trader.js" afterPath="$PROJECT_DIR$/public/javascripts/trader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/unit.js" afterPath="$PROJECT_DIR$/node_modules/stylus/lib/nodes/unit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/stylus/lib/units.js" afterPath="$PROJECT_DIR$/node_modules/stylus/lib/units.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/stylus/lib/functions/url.js" afterPath="$PROJECT_DIR$/node_modules/stylus/lib/functions/url.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/utils.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/stylus/lib/utils.js" afterPath="$PROJECT_DIR$/node_modules/stylus/lib/utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/lib/faye/websocket.js" afterPath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/lib/faye/websocket.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/examples/ws.html" afterPath="$PROJECT_DIR$/node_modules/faye/node_modules/faye-websocket/examples/ws.html" />
     </list>
     <ignored path="ninja-store.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -202,11 +16,12 @@
     <file path="/style.styl" changelist="a10463f6-f632-448b-9181-af8a12eded54" time="1379435180190" ignored="false" />
     <file path="/trader.jade" changelist="a10463f6-f632-448b-9181-af8a12eded54" time="1379434919437" ignored="false" />
     <file path="/store.js" changelist="a10463f6-f632-448b-9181-af8a12eded54" time="1379438273562" ignored="false" />
-    <file path="/app.js" changelist="a10463f6-f632-448b-9181-af8a12eded54" time="1379438309206" ignored="false" />
+    <file path="/app.js" changelist="a10463f6-f632-448b-9181-af8a12eded54" time="1379923496954" ignored="false" />
     <file path="/index.jade" changelist="a10463f6-f632-448b-9181-af8a12eded54" time="1379438715918" ignored="false" />
     <file path="/home.jade" changelist="a10463f6-f632-448b-9181-af8a12eded54" time="1379438900347" ignored="false" />
     <file path="/custom.css" changelist="a10463f6-f632-448b-9181-af8a12eded54" time="1379459216330" ignored="false" />
     <file path="/package.json" changelist="a10463f6-f632-448b-9181-af8a12eded54" time="1379920166284" ignored="false" />
+    <file path="/config.json" changelist="a10463f6-f632-448b-9181-af8a12eded54" time="1379923643550" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,15 +82,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="trader.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/trader.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="77" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="insto.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/insto.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -317,7 +123,16 @@
       <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="22" selection-start="236" selection-end="236" vertical-scroll-proportion="0.24759285">
+            <state line="33" column="42" selection-start="677" selection-end="677" vertical-scroll-proportion="0.53645116">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="16" selection-start="344" selection-end="344" vertical-scroll-proportion="-10.625">
               <folding />
             </state>
           </provider>
@@ -381,6 +196,7 @@
         <option value="$PROJECT_DIR$/views/insto.jade" />
         <option value="$PROJECT_DIR$/views/layout.jade" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/config.json" />
         <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
@@ -464,56 +280,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="routes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="streamtrader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="streamtrader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="streamtrader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="streamtrader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="streamtrader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="streamtrader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -802,13 +568,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/views/angtrader.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/angtrader.jade">
-      <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="58" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
           <folding />
         </state>
@@ -896,16 +655,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="6" selection-start="75" selection-end="75" vertical-scroll-proportion="0.11029412">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="16" selection-start="344" selection-end="344" vertical-scroll-proportion="0.375">
+        <state line="17" column="16" selection-start="344" selection-end="344" vertical-scroll-proportion="-10.625">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="22" selection-start="236" selection-end="236" vertical-scroll-proportion="0.24759285">
+        <state line="33" column="42" selection-start="677" selection-end="677" vertical-scroll-proportion="0.53645116">
           <folding />
         </state>
       </provider>
