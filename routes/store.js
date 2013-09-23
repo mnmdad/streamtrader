@@ -1,5 +1,5 @@
-exports.home = function (req, res) {
-	res.render('home', { title: 'Ninja Store' })
+exports.index = function (req, res) {
+	res.render('index', { title: 'Stream Trader' })
 };
 exports.sales = function (req, res) {
 	res.render('sales', { title: 'Sales View' })

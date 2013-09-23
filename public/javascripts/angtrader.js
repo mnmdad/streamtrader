@@ -68,23 +68,23 @@ var wlist = [
 	new LiveQuoteModel ( 'AUD/USD', 1.0505, 1.0506)  
 	] 
 
-// 	    message.ask = theStuff.items()[i].ask() + 125;
-// 	    theStuff.items()[i].onMessage(message);
+// 	    message.ask = watchList.items()[i].ask() + 125;
+// 	    watchList.items()[i].onMessage(message);
 // 	}
 //     }, 2000);
 
     
 function subscribeAll () {
-    for(var i=0;i<theStuff.items().length; i++) {
-	theStuff.items()[i].subscribe(client);
+    for(var i=0;i<watchList.items().length; i++) {
+	watchList.items()[i].subscribe(client);
     }
-     theOtherStuff.subscribe(client);
+     orderList.subscribe(client);
 }
 
     
 function unSubscribeAll () {
-    for(var i=0;i<theStuff.items().length; i++) {
-	theStuff.items()[i].subscription.unsubscribe();
+    for(var i=0;i<watchList.items().length; i++) {
+	watchList.items()[i].subscription.unsubscribe();
     }
 }
 

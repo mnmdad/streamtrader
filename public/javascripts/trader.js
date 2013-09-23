@@ -3,6 +3,8 @@
 //  LiveQuoteModel contains a collection of Quotes that each subscribed to
 //  channel
 
+
+// TODO: this file no longer used.. .see if there is anyting special to save.
 // Config
 var channelPrefix = '/faye';
 var oid = 10101;	
@@ -144,12 +146,12 @@ window.onload = function() {
 	// Test Function - for each row, create a dummy message and call onMessage
 	// setInterval(function() {
 
-	// 	for(var i=0;i<theStuff.items().length; i++) {
+	// 	for(var i=0;i<watchList.items().length; i++) {
 	// 	    var message = {};
-	// 	    message.sym = theStuff.items()[i].sym;
-	// 	    message.bid = theStuff.items()[i].bid() + 121;
-	// 	    message.ask = theStuff.items()[i].ask() + 125;
-	// 	    theStuff.items()[i].onMessage(message);
+	// 	    message.sym = watchList.items()[i].sym;
+	// 	    message.bid = watchList.items()[i].bid() + 121;
+	// 	    message.ask = watchList.items()[i].ask() + 125;
+	// 	    watchList.items()[i].onMessage(message);
 	// 	}
 	//     }, 2000);
 }

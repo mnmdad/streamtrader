@@ -1,9 +1,17 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  color: #ff0;
-  background-color: #000;
+  font: 12px Arial, sans-serif;
+  background: #2f4f4f;
+  color: #90ee90;
 }
-a {
-  color: #00b7ff;
+button {
+  font: 12px Arial, sans-serif;
+  background: #2f4f4f;
+  color: #90ee90;
+}
+.quote-button {
+  color: #ff0;
+  text-align: right;
+}
+td {
+  width: 120px;
 }

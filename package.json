@@ -10,7 +10,11 @@
     "jade": "*",
     "stylus": "*",
     "faye": "*",
+    "faye-redis": "*" ,
+    "passport": "*",
     "knockout-client": "*",
-    "mongodb": "*"
+    "mongodb": "*",
+    "brackets": "*",
+    "nconf": "*"
   }
 }

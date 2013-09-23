@@ -4,6 +4,20 @@
  * Copywright Agile Architechs
  */
 
+//
+// Setup nconf to use (in-order):
+//   1. Command-line arguments
+//   2. Environment variables
+//   3. A file located at 'path/to/config.json'
+//
+var fs    = require('fs'),
+    nconf = require('nconf');
+
+nconf.argv()
+    .env()
+    .file({ file: 'path/to/config.json' });
+
+
 var express = require('express')
   , store = require('./routes/store')
   , http = require('http')
@@ -37,7 +51,7 @@ app.configure('development', function(){
 
 /* setup routes to view templates
 */
-app.get('/', store.home);
+app.get('/', store.index);
 app.get('/sales', store.sales);
 app.get('/trader', store.trader);
 app.get('/insto', store.insto);
