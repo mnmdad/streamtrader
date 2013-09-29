@@ -1,6 +1,9 @@
 exports.index = function (req, res) {
 	res.render('index', { title: 'Stream Trader' })
 };
+exports.login = function (req, res) {
+    res.render('login', { title: 'Login Page' })
+};
 exports.sales = function (req, res) {
 	res.render('sales', { title: 'Sales View' })
 };

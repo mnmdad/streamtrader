@@ -2,8 +2,7 @@
 extends layout
 
     body
-        form(name="input", action="/submit/form", method="post")
-            input(type="text", name="FirstName") First Name
-            input(type="text", name="LastName") Last Name
+        form(name="input", action="/login", method="post")
+            input(type="text", name="username") User Name
             input(type="password", name="password") Password
             input(type="submit", value="submit")

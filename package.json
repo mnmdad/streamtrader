@@ -12,6 +12,7 @@
     "faye": "*",
     "faye-redis": "*" ,
     "passport": "*",
+    "passport-local": "*",
     "knockout-client": "*",
     "mongodb": "*",
     "brackets": "*",

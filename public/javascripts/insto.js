@@ -62,10 +62,10 @@ var LiveQuoteModel = function (sym, bid, ask, qid, timestamp) {
         this.bid = ko.observable(bid ? bid : 0.0).extend({ numeric: 6 }),
         this.ask = ko.observable(ask ? ask : 0.0).extend({ numeric: 6 }),
         this.qid = ko.observable(qid ? qid : 0).extend({ numeric: 6 }),
-        this.timestamp = ko.observable(timestamp ? timestamp : 0),
+        this.timestamp = ko.observable(timestamp ? timestamp : 12345),
         this.latency = ko.computed(function () {
             return (self.timestamp() - new Date().getTime() );
-        }).extend({ numeric: 6 });
+        });
     this.equals = function (x) {
         if (this === x) return true;
         //if (! (x instanceOf LiveQuoteModel)) return false;

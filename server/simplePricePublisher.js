@@ -8,7 +8,7 @@ var Faye   = require('faye') ;
 
 var transportState = false;
 var pubTimer = 1;
-var pubInterval = 500;
+var pubInterval = 2500;
 var quoteId = 1;	
 var client = new Faye.Client('http://localhost:3000/faye');
 //var client = new Faye.Client('http://122.248.206.244:9000/faye');

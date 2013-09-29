@@ -3,6 +3,15 @@
         "port":   3000
     },
     "faye": {
-        "mount": "/faye"
+        "mount": "/faye",
+        "timeout": 25
+    },
+    "faye-redis": {
+        "host": "redis.tapaas.com",
+        "port": 6379
+    },
+    "passport": {
+        "strategy": "local"
     }
+
 }

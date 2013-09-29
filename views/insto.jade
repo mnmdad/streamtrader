@@ -6,6 +6,7 @@ block content
   script(src='/javascripts/insto.js', type='text/javascript')
   h1= title
   p Welcome to #{title}
+  hr
 
   table(id='watchlist')
     thead
@@ -23,7 +24,8 @@ block content
           button(data-bind='text: ask, click: sendBuyOrder')
         td(data-bind='text: latency')
 
-
+  h2 Order Blotter
+  hr
 
   table(id='order-blotter', class='blotter')
     thead
