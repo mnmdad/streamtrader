@@ -28,22 +28,38 @@ var express = require('express')
 var passport = require('passport')
     , LocalStrategy = require('passport-local').Strategy;
 
+// setup provider for user profile data
+var UserProvider = require('./user-provider').UserProvider;
+var userProvider= new UserProvider('localhost', 27017);
+
+// Fake Authentication
+
 // Setup Passport Local Strategy
 passport.use(new LocalStrategy(
     function(username, password, done) {
-        User.findOne({ username: username }, function (err, user) {
+        userProvider.findOne({ username: username }, function (err, user) {
             if (err) { return done(err); }
             if (!user) {
                 return done(null, false, { message: 'Incorrect username.' });
-            }
+            }  /*
             if (!user.validPassword(password)) {
                 return done(null, false, { message: 'Incorrect password.' });
-            }
+            }    */
             return done(null, user);
         });
     }
 ));
 
+passport.serializeUser(function(user, done) {
+    console.log("Serialised User:" , user);
+    done(null, user._id);
+});
+
+passport.deserializeUser(function(id, done) {
+    userProvider.findOne({'_id': id}, function (err, user) {
+        done(err, user);
+    });
+});
 /* Create Express App and Configure
 */
 var app = express();
@@ -53,7 +69,7 @@ app.configure(function(){
   app.set('views', __dirname + '/views');
   app.set('view engine', 'jade');
   app.use(express.favicon());
-  app.use(express.logger('dev'));
+  app.use(express.logger());
   app.use(express.bodyParser());
   app.use(express.methodOverride());
   app.use(express.cookieParser('your secret here'));
@@ -87,6 +103,31 @@ app.get('/sales', store.sales);
 app.get('/trader', store.trader);
 app.get('/insto', store.insto);
 app.get('/boots', store.boots);
+// User Access
+app.get('/users', function(req, res){
+    userProvider.findAll(function(error, users){
+        res.render('users', {
+            title: 'Users',
+            users: users
+        });
+    });
+});
+app.get('/user/new', function(req, res) {
+    res.render('user_new', {
+        title: 'New User'
+    });
+});
+
+//save new employee
+app.post('/user/new', function(req, res){
+    userProvider.save({
+        username: req.param('username'),
+        password: req.param('password')
+    }, function( error, docs) {
+        res.redirect('/users')
+    });
+});
+
 
 // Server-side extension to lock player messages to client that added
 // the player in the first place,

@@ -1,0 +1,12 @@
+
+extends layout
+
+block content
+    h1= title
+    #users
+        - each user in users
+            div.user
+                div.created_at= user.created_at
+                div.username= user.username
+                div.password= user.password
+        a(href="/user/new")!= "Add New User"
