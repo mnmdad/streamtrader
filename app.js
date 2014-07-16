@@ -1,7 +1,6 @@
-
 /**
  * Module dependencies.
- * Copywright Agile Architechs
+ * Copywright TaPaaS
  */
 
 //
@@ -69,10 +68,10 @@ app.configure(function(){
   app.set('views', __dirname + '/views');
   app.set('view engine', 'jade');
   app.use(express.favicon());
-  app.use(express.logger());
+  app.use(express.logger(nconf.get('logger')));
   app.use(express.bodyParser());
   app.use(express.methodOverride());
-  app.use(express.cookieParser('your secret here'));
+  app.use(express.cookieParser(nconf.get('cookie-secret')));
   app.use(express.session());
   app.use(passport.initialize());
   app.use(passport.session());

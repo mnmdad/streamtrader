@@ -147,7 +147,7 @@ var LiveOrderModel = function (message) {
     self.filledSize = ko.observable(message.filledSize ? message.filledSize : 0).extend({ numeric: 6 });
     self.filledAvgPrice = ko.observable(message.filledAvgPrice ? message.filledAvgPrice : 0).extend({ numeric: 6 });
     self.pnl = ko.computed(function () {
-        return self.filledSize() * self.lastPrice();
+        return self.value() - self.cost();
     }).extend({ numeric: 6 });
 
     this.subscribe = function (client) {
