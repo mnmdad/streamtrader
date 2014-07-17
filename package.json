@@ -1,16 +1,24 @@
 {
   "name": "stream-trader",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": true,
   "scripts": {
     "start": "node app"
   },
   "dependencies": {
-    "express": "3.0.0rc3",
+    "express": "4.6.*",
+    "body-parser": "*",
+    "serve-favicon": "*",
+    "morgan": "*",
+    "method-override": "*",
+    "cookie-parser": "*",
+    "express-session": "*",
+    "serve-static": "*", 
+    "errorhandler": "*",
     "jade": "*",
     "stylus": "*",
-    "faye": "*",
-    "faye-redis": "*" ,
+    "faye": "1.0.*",
+    "faye-redis": "0.2.0" ,
     "passport": "*",
     "passport-local": "*",
     "knockout-client": "*",

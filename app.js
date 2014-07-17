@@ -61,28 +61,30 @@ passport.deserializeUser(function(id, done) {
 });
 /* Create Express App and Configure
 */
+var bodyParser = require('body-parser');
+
 var app = express();
 
-app.configure(function(){
-  app.set('port', nconf.get('http-listener:port'));
-  app.set('views', __dirname + '/views');
-  app.set('view engine', 'jade');
-  app.use(express.favicon());
-  app.use(express.logger(nconf.get('logger')));
-  app.use(express.bodyParser());
-  app.use(express.methodOverride());
-  app.use(express.cookieParser(nconf.get('cookie-secret')));
-  app.use(express.session());
-  app.use(passport.initialize());
-  app.use(passport.session());
-  app.use(app.router);
-  app.use(require('stylus').middleware(__dirname + '/public'));
-  app.use(express.static(path.join(__dirname, 'public')));
-});
+app.set('port', nconf.get('http-listener:port'));
+app.set('views', __dirname + '/views');
+app.set('view engine', 'jade');
 
-app.configure('development', function(){
-  app.use(express.errorHandler());
-});
+/* Setup Middleware */
+
+/*app.use(require('serve-favicon'));*/
+var logger = require('morgan');
+app.use(logger(nconf.get('logger')));
+app.use(bodyParser.urlencoded({ extended: false}));
+/*app.use(require('method-override'));*/
+var cookieParser = require('cookie-parser');
+app.use(cookieParser(nconf.get('cookie-secret')));
+var expressSession = require('express-session');
+app.use(expressSession({secret:'<my little>', saveUninitialized: true,
+                 resave: true}));
+app.use(passport.initialize());
+app.use(passport.session());
+
+/* Setup the Routes */
 
 /* Setup the Passport Login Page for Local Authentication
 */
@@ -127,6 +129,11 @@ app.post('/user/new', function(req, res){
     });
 });
 
+app.use(require('stylus').middleware(__dirname + '/public'));
+app.use(express.static(path.join(__dirname, 'public')));
+
+var errorHandler = require('errorhandler'); 
+app.use(errorHandler());
 
 // Server-side extension to lock player messages to client that added
 // the player in the first place,
